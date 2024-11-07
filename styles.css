@@ -1,8 +1,48 @@
-h1 {
-    color: green;
-    font-weight: 750;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: #333;
 }
-h4 {
-    color: purple;
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid #66a6ff;
+    border-radius: 5px;
+    color: #66a6ff;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #66a6ff;
+    color: #fff;
+}
+
+#result, #score {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
 }
